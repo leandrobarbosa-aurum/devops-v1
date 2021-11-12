@@ -2,6 +2,7 @@ FROM node:12-alpine
 
 ENV HOME=/home/app
 WORKDIR $HOME 
+#Ok! 
 
 COPY package.json yarn.lock ./
 # RUN npm install 
