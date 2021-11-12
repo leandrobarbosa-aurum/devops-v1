@@ -1,6 +1,6 @@
-name: drone-test
+name: drone-test-v1
 kind: pipeline
-type: docker
+type: kubernetes
 
 steps:
 - name: test
